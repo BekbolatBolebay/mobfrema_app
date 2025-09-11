@@ -1,0 +1,41 @@
+# Толық салыстыру - қай жерде не пайдалану керек
+
+Frontend_Hosting:
+  Vercel:
+    type: "Edge/CDN"
+    best_for: "Next.js, статикалық файлдар"
+    free_tier: "100GB bandwidth"
+    speed_in_kz: "⭐⭐⭐⭐⭐"
+    
+  Traditional_Server:
+    type: "VPS/Dedicated"
+    best_for: "Толық бақылау"
+    cost: "$5-50/месяц"
+    speed_in_kz: "⭐⭐⭐"
+
+Backend_Database:
+  Supabase:
+    type: "Managed PostgreSQL"
+    best_for: "Жылдам дамыту"
+    free_tier: "500MB"
+    
+  VPS_with_PostgreSQL:
+    type: "Self-hosted"
+    best_for: "Толық бақылау"
+    cost: "$10-100/месяц"
+
+File_Storage:
+  Supabase_Storage:
+    type: "S3-compatible"
+    free_tier: "1GB"
+    
+  Yandex_Object_Storage:
+    type: "S3-compatible"
+    cost: "₽1.53/GB/месяц"
+    speed_in_kz: "⭐⭐⭐⭐⭐"
+
+Payment_Processing:
+  PayBox_kz:
+    type: "API service"
+    location: "Kazakhstan"
+    commission: "2.5-3.5%"
