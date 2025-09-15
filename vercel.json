@@ -16,5 +16,5 @@
     "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
     "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key"
   },
-  "regions": ["fra1", "arn1"]
+  "regions": ["fra1"]
 }
