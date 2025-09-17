@@ -1,5 +1,4 @@
 // lib/onesignal.ts
-import sendOneSignalNotification from "@/lib/onesignal";
 
 export async function sendOneSignalNotification(message: string) {
   const response = await fetch("https://onesignal.com/api/v1/notifications", {
